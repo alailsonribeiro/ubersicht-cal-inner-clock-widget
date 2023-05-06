@@ -8,4 +8,7 @@ Simple calendar with division of months marking days of the week and full date d
 
 `- Change language and CSS in index.coffe ;-)`
 
+![OSX Desktop Sample](https://github.com/alailsonribeiro/ubersicht-cal-inner-clock-widget/blob/main/screenshot.png?raw=true)
+
 Alailson Barbosa Ribeiro
+[Alailson Barbosa Ribeiro](https://alailson.com.br)
