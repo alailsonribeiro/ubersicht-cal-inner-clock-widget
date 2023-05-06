@@ -134,16 +134,6 @@ style: """
     position: relative
     justify-content: center
 
-  .wday 
-    border-radius: 12px
-    text-align: center
-    font-size: 2em
-    font-weight: 500
-    padding: 1px
-    color: yellow
-    border: 1px solid #fff
-    background: rgba(#000, 0.5)
-
   .hour-min
     font-size: 8em
     color: #fff
@@ -159,6 +149,16 @@ style: """
     text-align: center
     color: #fff
   }
+
+  .wday 
+    border-radius: 12px
+    text-align: center
+    font-size: 2em
+    font-weight: 500
+    padding: 1px
+    color: yellow
+    border: 1px solid #fff
+    background: rgba(#000, 0.5)
    
   table
     min-width: 100%
@@ -180,6 +180,7 @@ style: """
     text-align: center
     padding: 10px
     font-family: system-ui
+    border-radius: 5px
 
   tfoot td
     font-size: 1em
@@ -199,35 +200,32 @@ style: """
       font-weight: 500 
 
   tbody td
-     font-weight: 400 
+    font-weight: 400 
+    border-radius: 5px
 
   .today
-    font-weight: bold
+    font-weight: bold !important
     font-size: 1.7em !important
     padding: 5px !important
-    color: yellow
-    border-radius: 50%
-    box-shadow: 0 0 0 1px #fff
-    background: rgba(#000, 0.5)
-    border-radius: 12px
+    color: black !important
+    border-radius: 50% !important
+    background: rgba(lime, 0.9) !important
+    border-radius: 40% !important
 
   .weekend
     font-weight: 300
     color: #fff
     padding: 5px 5px
-    background: rgba(#000, 0.3)
+    background: rgba(lime, 0.2)
+    border-radius: 5px
+
 
   .grey
     color: black
-    background: rgba(#fff, 0.2)
-    opacity: 0.7
-    font-weight: bold
+    background: rgba(grey, 1)
+    font-weight: 900
+    border-radius: 5px
     
-  hr
-    border: 0
-    border-top: 1px solid #fff
-    opacity: 0.1
-    margin: 10px 0 0px 0
 """
 
 # RENDER BASE HTML TO CALENDAR AND CLOCK ON SCREEN
