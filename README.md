@@ -28,7 +28,7 @@ _`- Altere a língua e o CSS no index.coffe ;-)`_
 ![SX Desktop Sample ko_KR](https://github.com/alailsonribeiro/ubersicht-cal-inner-clock-widget/blob/main/screenshot-ko_KR.png?raw=true)
 
 <hr />
-About Developer:
+Developer:
 
 ![alt text](https://secure.gravatar.com/avatar/f4a6fbf1b704b29c4236d964f5f5280c "Alailson Barbosa Ribeiro")
 <br>
