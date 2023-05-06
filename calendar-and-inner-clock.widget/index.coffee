@@ -1,6 +1,6 @@
 #CONFIG
 refreshFrequency: 3600000               # 1 hour in milliseconds (default)
-i18n = "ko_KR"                          # Default language
+i18n = "pt_BR"                          # Default language
 FirstWeekDay = 1                        # 0 = Sunday OR 1 = Monday
 TimeZone = 'America/Sao_Paulo'          #Timezone
 
@@ -121,7 +121,7 @@ otherMonths: true
 # STYLES DEFINITION
 style: """
   top: 47%
-  left: 20px
+  right: 1%
   color: #fff
   
   #clock
