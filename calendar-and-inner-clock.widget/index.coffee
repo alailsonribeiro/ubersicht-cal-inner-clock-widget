@@ -1,6 +1,6 @@
 #CONFIG
 refreshFrequency: 3600000               # 1 hour in milliseconds (default)
-i18n = "pt_BR"                          # Default language
+i18n = "ko_KR"                          # Default language
 FirstWeekDay = 1                        # 0 = Sunday OR 1 = Monday
 TimeZone = 'America/Sao_Paulo'          #Timezone
 
@@ -12,8 +12,8 @@ WeekDays = {
     long:['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado']
   },
   en_US: {
-    short:['S','M','T','W','T','F','S'],
-    sfirst: ['M','T','W','T','F','S','S'],
+    short:['Su','Mo','Tu','We','Th','Fr','Sa'],
+    sfirst: ['Mo','Tu','We','Th','Fr','Sa','Su'],
     long:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
   },
   es_ES: {
@@ -120,8 +120,8 @@ otherMonths: true
 
 # STYLES DEFINITION
 style: """
-  top: 48%
-  right: 7px
+  top: 47%
+  left: 20px
   color: #fff
   
   #clock
@@ -174,7 +174,7 @@ style: """
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    background: rgba(#000, 0.5)
+    background: rgba(#000, 0.7)
 
   td
     text-align: center
@@ -184,14 +184,14 @@ style: """
   tfoot td
     font-size: 1em
     font-weight: 900
-    background: rgba(#000, 0.5)
+    background: rgba(#000, 0.7)
     border-radius: 12px
 
   thead tr
     &:first-child td
       font-size: 2em
       font-weight: 200
-      opacity: 0.7
+      opacity: 1
 
     &:last-child td
       font-size: 1rem
@@ -253,7 +253,7 @@ updateHeader: (rows, table) ->
 
   wday =  WeekDays[i18n].long[time.getDay()]
 
-  mesano=time.toLocaleDateString('pt-BR', {  day: 'numeric', month: 'long', year: 'numeric', timeZone: TimeZone })
+  mesano=time.toLocaleDateString( i18n.split('_').join('-'), {  day: 'numeric', month: 'long', year: 'numeric', timeZone: TimeZone })
   thead.append "<tr class='dataextenso'><td colspan='7'>#{wday}, #{mesano}</td></tr>"
   tableRow = $("<tr class='weekend'></tr>").appendTo(thead)
   daysOfWeek = [WeekDays[i18n].short,WeekDays[i18n].sfirst][FirstWeekDay]
@@ -273,8 +273,6 @@ updateHeader: (rows, table) ->
 updateBody: (rows, table) ->
   #Set to 1 to enable previous and next month dates, 0 to disable
   PrevAndNext = 1
-
-  console.log(@otherMonths) 
 
   tbody = table.find("tbody")
   tbody.empty()
