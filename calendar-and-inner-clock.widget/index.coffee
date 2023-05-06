@@ -120,8 +120,8 @@ otherMonths: true
 
 # STYLES DEFINITION
 style: """
-  top: 40%
-  right: 10px
+  top: 48%
+  right: 7px
   color: #fff
   
   #clock
@@ -170,7 +170,7 @@ style: """
     text-align: center;
     overflow:hidden;
     border-collapse:separate;
-    border: solid #00000070 3px;
+    border: solid #00000070 0px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
