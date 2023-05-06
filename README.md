@@ -13,8 +13,7 @@ _`- Altere a língua e o CSS no index.coffe ;-)`_
 
 Modified by [Alailson Barbosa Ribeiro](https://github.com/alailsonribeiro) **based on the glorious work of [Larico](https://github.com/laricoDGT) publicado em [ubershicht-clock-calendar](https://github.com/laricoDGT/ubershicht-clock-calendar), thanks for sharing!**
 
-<br /><hr />
-
+<hr />
 ## Screenshots
 
 <br />OSX Desktop Sample **pt_BR**
