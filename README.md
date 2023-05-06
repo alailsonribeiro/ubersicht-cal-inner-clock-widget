@@ -1,6 +1,6 @@
 # ubersicht-cal-inner-clock-widget
 
-### Übersicht Cal Inner Clock Widget
+### [Übersicht](https://github.com/felixhageloh/uebersicht-widgets) Cal Inner Clock Widget
 
 ## Cal Inner Clock
 
@@ -30,6 +30,6 @@ _`- Altere a língua e o CSS no index.coffe ;-)`_
 <hr />
 Developer:
 
-![alt text](https://secure.gravatar.com/avatar/f4a6fbf1b704b29c4236d964f5f5280c "Alailson Barbosa Ribeiro")
+![Alaislon Barbosa Ribeiro](https://secure.gravatar.com/avatar/f4a6fbf1b704b29c4236d964f5f5280c "Alailson Barbosa Ribeiro")
 <br>
 [Alailson Barbosa Ribeiro](https://www.alailson.com.br)
