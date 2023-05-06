@@ -30,5 +30,6 @@ _`- Altere a língua e o CSS no index.coffe ;-)`_
 <hr />
 About Developer:
 
-[Alailson Barbosa Ribeiro](https://www.alailson.com.br)
 ![alt text](https://secure.gravatar.com/avatar/f4a6fbf1b704b29c4236d964f5f5280c "Alailson Barbosa Ribeiro")
+<br>
+[Alailson Barbosa Ribeiro](https://www.alailson.com.br)
