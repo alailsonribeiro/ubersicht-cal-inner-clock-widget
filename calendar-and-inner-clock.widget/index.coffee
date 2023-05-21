@@ -96,8 +96,10 @@ showTime = ->
   hour = if hour < 10 then '0' + hour else hour
   min = if min < 10 then '0' + min else min
   sec = if sec < 10 then '0' + sec else sec
-  currentTime = '<span class="hour-min">' + hour  + ':' + min + '</span>' + '<div class="clock-inf"><span class="wday">' + wday + '</span></div>'
-  document.getElementById('clock').innerHTML = currentTime
+  currentTime = '<span class="hour-min">' + hour  + ':' + min + '</span>' + '<div class="clock-inf"><span class="wday">' + wday + '</span></div>'    
+  clock = document.getElementById('clock')
+  if clock != null
+     clock.innerHTML = currentTime
   return
 
 setTimeout showTime, 1000
@@ -121,7 +123,7 @@ otherMonths: true
 # STYLES DEFINITION
 style: """
   top: 47%
-  right: 1%
+  left: 1%
   color: #fff
   
   #clock
@@ -208,9 +210,7 @@ style: """
     font-size: 1.7em !important
     padding: 5px !important
     color: black !important
-    border-radius: 50% !important
     background: rgba(lime, 0.9) !important
-    border-radius: 40% !important
 
   .weekend
     font-weight: 300
@@ -257,7 +257,8 @@ updateHeader: (rows, table) ->
   daysOfWeek = [WeekDays[i18n].short,WeekDays[i18n].sfirst][FirstWeekDay]
   
   itime = [time.getDay(), time.getDay() - 1][FirstWeekDay]
-
+  if itime < 0
+    itime = 6
   for dayOfWeek, i in daysOfWeek
       if i == itime
         tableRow.append "<td class='today'><span>#{dayOfWeek}</span></td>"
