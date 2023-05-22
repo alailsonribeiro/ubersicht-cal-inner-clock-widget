@@ -16,12 +16,14 @@ Modified by [Alailson Barbosa Ribeiro](https://github.com/alailsonribeiro) **bas
 _`- Altere a língua e o CSS no index.coffe ;-)`_
 
 ```
+WeekDays = {
   pt_BR: {
     short:['Dº','2ª','3ª','4ª','5ª','6ª','Sª'],
     sfirst: ['2ª','3ª','4ª','5ª','6ª','Sª','Dº'],
     long:['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado']
     holiday: ['01-01','05-01','10-12','11-02','11-15','12-20','12-25'] // ['MM-DD']
   },
+}
 ```
 
 <hr />
