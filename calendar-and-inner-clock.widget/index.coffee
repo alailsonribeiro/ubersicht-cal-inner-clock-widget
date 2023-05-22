@@ -5,6 +5,7 @@ FirstWeekDay = 1                        # 0 = Sunday OR 1 = Monday
 TimeZone = 'America/Sao_Paulo'          #Timezone
 
 #Language defaults  (pt_BR, en_US, es_ES, fr_FR, de_DE, it_IT, ru_RU, zh_CN, ja_JP)
+# Holiday format ['MM-DD']
 WeekDays = { 
   pt_BR: {
     short:['Dº','2ª','3ª','4ª','5ª','6ª','Sª'],
