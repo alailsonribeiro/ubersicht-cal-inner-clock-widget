@@ -10,79 +10,102 @@ WeekDays = {
     short:['Dº','2ª','3ª','4ª','5ª','6ª','Sª'],
     sfirst: ['2ª','3ª','4ª','5ª','6ª','Sª','Dº'],
     long:['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado']
+    holiday: ['01-01','02-24','04-18','04-21','05-01','06-19','06-24','09-07','10-12','11-02','11-15','12-20','12-25']
   },
   en_US: {
     short:['Su','Mo','Tu','We','Th','Fr','Sa'],
     sfirst: ['Mo','Tu','We','Th','Fr','Sa','Su'],
     long:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
+    holiday: ['01-01','02-17','04-18','04-21','05-01','06-19','09-07','10-12','11-02','11-15','12-25']
   },
   es_ES: {
     short:['D','L','M','X','J','V','S'],
     sfirst: ['L','M','X','J','V','S','D'],
     long:['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado']
+    holiday: ['01-01','02-17','04-18','04-21','05-01','06-19','09-07','10-12','11-02','11-15','12-25']
   },
   fr_FR: {
     short:['D','L','M','M','J','V','S'],
     sfirst: ['L','M','M','J','V','S','D'],
     long:['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi']
+    holiday: ['01-01','02-17','04-18','04-21','05-01','06-19','09-07','10-12','11-02','11-15','12-25']
   },
   de_DE: {
     short:['S','M','D','M','D','F','S'],
     sfirst: ['M','D','M','D','F','S','S'],
     long:['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag']
+    holiday: ['01-01','02-17','04-18','04-21','05-01','06-19','09-07','10-12','11-02','11-15','12-25']
   },
   it_IT: {
     short:['D','L','M','M','G','V','S'],
     sfirst: ['L','M','M','G','V','S','D'],
     long:['Domenica','Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato']
+    holiday: ['01-01','02-17','04-18','04-21','05-01','06-19','09-07','10-12','11-02','11-15','12-25']
   },
   ru_RU: {
     short:['В','П','В','С','Ч','П','С'],
     sfirst: ['П','В','С','Ч','П','С','В'],
     long:['Воскресенье','Понедельник','Вторник','Среда','Четверг','Пятница','Суббота']
+    holiday: ['01-01','02-17','04-18','04-21','05-01','06-19','09-07','10-12','11-02','11-15','12-25']
   },
   zh_CN: {
     short:['日','一','二','三','四','五','六'],
     sfirst: ['一','二','三','四','五','六','日'],
     long:['星期日','星期一','星期二','星期三','星期四','星期五','星期六']
+    holiday: ['01-01','02-17','04-18','04-21','05-01','06-19','09-07','10-12','11-02','11-15','12-25']
   },
   ja_JP: {
     short:['日','月','火','水','木','金','土'],
     sfirst: ['月','火','水','木','金','土','日'],
     long:['日曜日','月曜日','火曜日','水曜日','木曜日','金曜日','土曜日']
+    holiday: ['01-01','02-17','04-18','04-21','05-01','06-19','09-07','10-12','11-02','11-15','12-25']
   },
   ko_KR: {
     short:['일','월','화','수','목','금','토'],
     sfirst: ['월','화','수','목','금','토','일'],
     long:['일요일','월요일','화요일','수요일','목요일','금요일','토요일']
+    holiday: ['01-01','02-17','04-18','04-21','05-01','06-19','09-07','10-12','11-02','11-15','12-25']
   },
   ar_AR: {
     short:['ح','ن','ث','ر','خ','ج','س'],
     sfirst: ['ن','ث','ر','خ','ج','س','ح'],
     long:['الأحد','الاثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت']
+    holiday: ['01-01','02-17','04-18','04-21','05-01','06-19','09-07','10-12','11-02','11-15','12-25']
   },
   tr_TR: {
     short:['P','P','S','Ç','P','C','C'],
     sfirst: ['P','S','Ç','P','C','C','P'],
     long:['Pazar','Pazartesi','Salı','Çarşamba','Perşembe','Cuma','Cumartesi']
+    holiday: ['01-01','02-17','04-18','04-21','05-01','06-19','09-07','10-12','11-02','11-15','12-25']
   },
   nl_NL: {
     short:['Z','M','D','W','D','V','Z'],
     sfirst: ['M','D','W','D','V','Z','Z'],
     long:['Zondag','Maandag','Dinsdag','Woensdag','Donderdag','Vrijdag','Zaterdag']
+    holiday: ['01-01','02-17','04-18','04-21','05-01','06-19','09-07','10-12','11-02','11-15','12-25']
   },
   pl_PL: {
     short:['N','P','W','Ś','C','P','S'],
     sfirst: ['P','W','Ś','C','P','S','N'],
     long:['Niedziela','Poniedziałek','Wtorek','Środa','Czwartek','Piątek','Sobota']
+    holiday: ['01-01','01-06','04-18','04-21','05-01','06-19','08-15','11-01','11-11','12-25','12-26']
   },
   sv_SE: {
     short:['S','M','T','O','T','F','L'],
     sfirst: ['M','T','O','T','F','L','S'],
     long:['Söndag','Måndag','Tisdag','Onsdag','Torsdag','Fredag','Lördag']
+    holiday: ['01-01','01-06','04-18','04-21','05-01','06-06','06-21','11-01','12-25','12-26']
   },
 }
 
+# TODAY
+now = new Date
+holidays = WeekDays[i18n].holiday
+
+if now.getMonth() + 1 < 10 
+  ThisMonth = '0' + (now.getMonth() + 1)
+else 
+  ThisMonth = now.getMonth() + 1
 
 # CLOCK
 
@@ -162,6 +185,15 @@ style: """
     border: 1px solid #fff
     background: rgba(#000, 0.5)
    
+  .holiday
+    text-decoration-line: overline 
+    text-decoration-thickness: from-font 
+    text-decoration-color: white
+    font-weight: 900
+    border: 2px solid white !important
+    background: rgba(lime, 0.2) !important
+    color: white !important
+
   table
     min-width: 100%
     border-collapse: collapse
@@ -317,7 +349,11 @@ updateBody: (rows, table) ->
         pw++
       # destacar o dia de hoje  
       cell.addClass("today") if day == date
-  
+      
+      # destacar feriados
+      if day < 10 then day = '0' + day
+      cell.addClass("holiday") if holidays.includes("#{ThisMonth}-#{day}")
+
     if i != 0 and 0 < days.length < 7 and @otherMonths == true
       for j in [1..7-days.length]
         cell = $("<td>#{j}</td>").appendTo(tableRow)

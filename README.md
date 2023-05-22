@@ -4,8 +4,8 @@
 
 ## Cal Inner Clock
 
-OSX Desktop Calendar Widget featuring weekday marking and full data display.<br />
-_OSX Desktop Wdiget com Calendário possuindo a marcação dias da semana e exibição de data completa._
+OSX Desktop Calendar Widget featuring weekday marking and full data display and holidays.<br />
+_OSX Desktop Wdiget com Calendário possuindo a marcação dias da semana e exibição de data completa e destaque para feriados._
 
 <hr />
 
@@ -14,7 +14,18 @@ Modified by [Alailson Barbosa Ribeiro](https://github.com/alailsonribeiro) **bas
 <hr />
 `- Change language and CSS in index.coffe ;-)`<br />
 _`- Altere a língua e o CSS no index.coffe ;-)`_
+
+```
+  pt_BR: {
+    short:['Dº','2ª','3ª','4ª','5ª','6ª','Sª'],
+    sfirst: ['2ª','3ª','4ª','5ª','6ª','Sª','Dº'],
+    long:['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado']
+    holiday: ['01-01','02-24','04-18','04-21','05-01','10-12','11-02','11-15','12-20','12-25'] // ['MM-DD']
+  },
+```
+
 <hr />
+
 ## Screenshots
 
 <br />OSX Desktop Sample **pt_BR**
